@@ -33,32 +33,34 @@
   --color-ring: var(--ring);
   --color-ring-offset-background: var(--background);
   --font-sans: "Plus Jakarta Sans", "Inter", system-ui, sans-serif;
-  --font-display: "Plus Jakarta Sans", "Inter", sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-display: "Playfair Display", Georgia, serif;
 }
 
 :root {
-  --radius: 1rem;
-  --background: #FFFBEB;
-  --foreground: #0F172A;
+  --radius: 1.25rem;
+  --background: #FAF8F5;
+  --foreground: #1C150E;
   --card: #FFFFFF;
-  --card-foreground: #0F172A;
+  --card-foreground: #1C150E;
   --popover: #FFFFFF;
-  --popover-foreground: #0F172A;
-  --primary: #292524;
-  --primary-foreground: #ffffff;
-  --secondary: #F1F5F9;
-  --secondary-foreground: #0F172A;
-  --muted: #F1F5F9;
-  --muted-foreground: #64748B;
-  --accent: #d97706;
-  --accent-foreground: #ffffff;
-  --destructive: #ef4444;
-  --destructive-foreground: #ffffff;
-  --border: rgba(15, 23, 42, 0.10);
-  --input: rgba(15, 23, 42, 0.10);
-  --ring: #d97706;
+  --popover-foreground: #1C150E;
+  --primary: #2C1E16;
+  --primary-foreground: #FFFFFF;
+  --secondary: #F5EFEB;
+  --secondary-foreground: #2C1E16;
+  --muted: #F5EFEB;
+  --muted-foreground: #786B61;
+  --accent: #B45309;
+  --accent-foreground: #FFFFFF;
+  --destructive: #BE123C;
+  --destructive-foreground: #FFFFFF;
+  --border: rgba(44, 30, 22, 0.08);
+  --input: rgba(44, 30, 22, 0.12);
+  --ring: #D97706;
   --font-sans: "Plus Jakarta Sans", "Inter", system-ui, sans-serif;
-  --font-display: "Plus Jakarta Sans", "Inter", sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-display: "Playfair Display", Georgia, serif;
 }
 
 @layer base {
