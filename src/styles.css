@@ -39,25 +39,25 @@
 
 :root {
   --radius: 1.25rem;
-  --background: #FAF8F5;
-  --foreground: #1C150E;
+  --background: #FFFFFF;
+  --foreground: #1E1118;
   --card: #FFFFFF;
-  --card-foreground: #1C150E;
+  --card-foreground: #1E1118;
   --popover: #FFFFFF;
-  --popover-foreground: #1C150E;
-  --primary: #2C1E16;
+  --popover-foreground: #1E1118;
+  --primary: #DB2777;
   --primary-foreground: #FFFFFF;
-  --secondary: #F5EFEB;
-  --secondary-foreground: #2C1E16;
-  --muted: #F5EFEB;
-  --muted-foreground: #786B61;
-  --accent: #B45309;
+  --secondary: #FDF2F8;
+  --secondary-foreground: #9D174D;
+  --muted: #FDF2F8;
+  --muted-foreground: #705866;
+  --accent: #E11D48;
   --accent-foreground: #FFFFFF;
   --destructive: #BE123C;
   --destructive-foreground: #FFFFFF;
-  --border: rgba(44, 30, 22, 0.08);
-  --input: rgba(44, 30, 22, 0.12);
-  --ring: #D97706;
+  --border: rgba(219, 39, 119, 0.12);
+  --input: rgba(219, 39, 119, 0.16);
+  --ring: #DB2777;
   --font-sans: "Plus Jakarta Sans", "Inter", system-ui, sans-serif;
   --font-serif: "Playfair Display", Georgia, serif;
   --font-display: "Playfair Display", Georgia, serif;
@@ -74,4 +74,17 @@
     font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
   }
+}
+
+.pink-sweet-glow {
+  box-shadow: 0 0 35px -5px rgba(244, 114, 182, 0.25);
+}
+
+.pink-card-hover {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.pink-card-hover:hover {
+  transform: translateY(-4px);
+  border-color: rgba(236, 72, 153, 0.4);
+  box-shadow: 0 20px 30px -10px rgba(236, 72, 153, 0.15);
 }

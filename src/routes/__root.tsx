@@ -70,6 +70,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "Quero Mais Doceria & Cafeteria — Pudim Sem Igual & Tortas Artesanais | São Pedro" },
       { name: "description", content: "Confeitaria artesanal e cafeteria charmosa na R. Fileuterpe em frente à Paróquia São Pedro. Famoso pudim aveludado, fatias de tortas nobres, cafés especiais e encomendas para festas." },
+      { name: "theme-color", content: "#DB2777" },
       { property: "og:title", content: "Quero Mais Doceria e Cafeteria — São Pedro, Teresópolis" },
       { property: "og:description", content: "O pudim mais elogiado de Teresópolis, tortas artesanais e cafés especiais em frente à Paróquia São Pedro." },
       { property: "og:type", content: "website" },
@@ -77,7 +78,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     ],
     links: [
       { rel: "stylesheet", href: appCss },
-      { rel: "icon", type: "image/svg+xml", href: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='25' fill='%2378350F'/><text x='50%' y='55%' text-anchor='middle' dominant-baseline='middle' fill='%23FEF3C7' font-family='serif' font-weight='700' font-size='38'>QM</text></svg>" },
+      { rel: "icon", type: "image/svg+xml", href: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='25' fill='%23DB2777'/><text x='50%' y='55%' text-anchor='middle' dominant-baseline='middle' fill='%23FFFFFF' font-family='serif' font-weight='700' font-size='38'>QM</text></svg>" },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {
